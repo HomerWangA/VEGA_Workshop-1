@@ -8,7 +8,7 @@ This workshop will walk you through a computer vision workflow using the latest 
 In order to use this workshop content, you will need to setup your hardware and install the Intel® Distribution of OpenVINO™ toolkit for infering your computer vision application.  
 ### 1. Hardware requirements
 #### a).The hardware requirements are mentioned in the System Requirement section of the [Guide](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html#development_and_target_platform)
-#### b).The Intel® Vision Accelerator Design with Intel® Movidius™ VPUs [VEGA Product](https://www.advantech.com/products/edge-ai-acceleration-modules/sub_3d060f1e-e73e-460d-b38c-c69f76312c91) 
+#### b).The AI Inference Module [VEGA](https://www.advantech.com/products/edge-ai-acceleration-modules/sub_3d060f1e-e73e-460d-b38c-c69f76312c91) which Design with Intel® Movidius™ VPUs.
 
 ### 2. Operating System
 These labs have been validated on [Ubuntu 16.04.6 64bit](https://ubuntu.com/download/alternative-downloads)

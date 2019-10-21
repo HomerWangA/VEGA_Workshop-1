@@ -85,7 +85,6 @@ Install Opencv2 using below command
 
 * **Training a Deep Learning Model**
   - Slides - [Training a Deep Learning Model](./presentations/DL_training_model.pdf)
-  - Lab - Training a Deep Learning Model  [[Default](./dl-model-training/README.md)] [[Python](./dl-model-training/Python/Deep_Learning_Tutorial.ipynb)]
   
 * **Basic End to End Object Detection Inference Example**
   - Slides - [Basic End to End Object Detection Example](./presentations/02-03_Basic-End-to-End-Object-Detection-Example.pdf)

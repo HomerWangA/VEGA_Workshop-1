@@ -110,10 +110,6 @@ Install Opencv2 using below command
 * **UP²\* AI Vision Development kit as Edge**
   - Setup - [Development machine and Internet Connection Sharing](./up2-vision-kit/dev_machine_setup.md)
   - Lab - [Interact face detection on UP2 kit using Intel® System Studio](./up2-vision-kit/openvino-projects-using-iss2019.md) ---->
-
-* **Implement Custom Layers for Inference on CPU and Integrated GPU**
-  - Slides - [Custom Layer](./presentations/custom_layer.pdf)
-  - Lab - [Custom Layer](./custom-layer/README.md)
   
 * **Additional Examples - Reference Implementations**
   - Industrial 

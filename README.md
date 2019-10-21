@@ -35,6 +35,11 @@ Delete $HOME/inference_engine_samples folder if it already exists.
 
 	rm -rf $HOME/inference_engine_samples
 	
+Modify the python module version networkx>=1.11 to networkx==1.11
+
+	sudo apt install -y vim
+	sudo vim /opt/intel/openvino/deployment_tools/model_optimizer/requirements.txt
+	
 Run demo scripts (any one of them or both if you want to both the demos) which will generate the folder $HOME/inference_engine_samples with the current Intel® Distribution of OpenVINO™ toolkit built. 
 
 	cd /opt/intel/openvino/deployment_tools/demo

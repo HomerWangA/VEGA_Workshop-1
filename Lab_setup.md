@@ -23,7 +23,7 @@ Set the folder to execute labs in the workshop github.
 If you get a fatal message, "fatal: destination path 'smart-video-workshop' already exists and is not an empty directory.
 ",
 
-	cd /opt/intel/workshop/smart-video-workshop/
+	cd /opt/intel/workshop/VEGA-Workshop
 	git pull
 
 #### 5. Set short path for the workshop directory

@@ -41,11 +41,11 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 	./demo_squeezenet_download_convert_run.sh
 	./demo_security_barrier_camera.sh
 	
-	sudo chown -R username.username $HOME/inference_engine_samples_build
+	sudo chown -R {Your Username}.{Your Username} $HOME/inference_engine_samples_build
 	cd $HOME/inference_engine_samples_build
 	make
 
-	sudo chown -R username.username $HOME/inference_engine_demos_build
+	sudo chown -R {Your Username}.{Your Username} $HOME/inference_engine_demos_build
 	cd $HOME/inference_engine_demos_build
 	make
 

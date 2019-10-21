@@ -11,7 +11,7 @@ Please make sure to complete the [Lab Setup](https://github.com/intel-iot-devkit
 	
 #### Set short path for the workshop directory
 
-	export SV=/opt/intel/workshop/smart-video-workshop/
+	export SV=/opt/intel/workshop/VEGA-Workshop
     
 ## Part 1: Optimize a deep-learning model using the Model Optimizer (MO)
 
@@ -122,7 +122,7 @@ Here are the parameters used in the above command to run the application:
  
 	source /opt/intel/openvino/bin/setupvars.sh
 	
-	export SV=/opt/intel/workshop/smart-video-workshop/
+	export SV=/opt/intel/workshop/VEGA-Workshop
 	
 	cd $SV/object-detection
  

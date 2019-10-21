@@ -54,27 +54,6 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
   	
 	sudo python3 downloader.py --name mobilenet-ssd,ssd300,ssd512,squeezenet1.1,face-detection-retail-0004,age-gender-recognition-retail-0013,head-pose-estimation-adas-0001,emotions-recognition-retail-0003,facial-landmarks-35-adas-0002
 
-#### e). Install Intel® VTune™ Amplifier on development machine
-Follow the [guide](./up2-vision-kit/install_vtune_amplifier_2019.md) to install Intel® VTune™ Amplifier on your development machine.
-
-
-#### f). Install Jupyter Notebook and Opencv
-Install Jupyter Notebook using below command
-
-	pip3 install jupyter
-
-Install Opencv2 using below command
-
-	pip3 install opencv-python
-
-#### g). Run the Jupyter Notebook
-1. Run the Jupyter Notebook
-```bash
-	$ jupyter notebook
-```
-
-2. It opens in default browser, locate the required jupyter notebook (.ipynb) file and double click on it to open and run.
-
 > :warning: This workshop content has been validated with Intel® Distribution of OpenVINO™ toolkit version R2 2019 (openvino_toolkit_2019.2.242). 
 
 

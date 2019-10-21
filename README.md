@@ -98,9 +98,6 @@ Install Opencv2 using below command
 
 * **HW Acceleration with Intel® Movidius™ Neural Compute Stick**
   - Lab - HW Acceleration with Intel® Movidius™ Neural Compute Stick [[C++](./HW-Acceleration-with-Movidious-NCS/README.md)] <!--[[Python](./HW-Acceleration-with-Movidious-NCS/Python/HW_Acceleration_with_Movidius_NCS.ipynb)] -->
-  
-* **FPGA Inference Accelerator**
-  - Slides - [HW Acceleration with Intel® FPGA](./presentations/FPGA.pdf)
 
 * **Optimization Tools and Techniques** 
   - Slides - [Optimization Tools and Techniques](./presentations/04-05_Optimization_and_advanced_analytics.pdf)

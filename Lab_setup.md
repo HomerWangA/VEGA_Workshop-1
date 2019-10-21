@@ -18,7 +18,7 @@ Set the folder to execute labs in the workshop github.
 
 #### 4. Download and clone the workshop content to the current directory (/opt/intel/workshop/smart-video-workshop).
 
-	git clone https://github.com/intel-iot-devkit/smart-video-workshop.git
+	git clone https://github.com/ADVANTECH-EIoT/VEGA-Workshop.git
 	
 If you get a fatal message, "fatal: destination path 'smart-video-workshop' already exists and is not an empty directory.
 ",

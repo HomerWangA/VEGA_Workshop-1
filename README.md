@@ -9,7 +9,8 @@ In order to use this workshop content, you will need to setup your hardware and 
 ### 1. Hardware requirements
 #### a).The hardware requirements are mentioned in the System Requirement section of the [Guide](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html#development_and_target_platform)
 #### b).Intel® Vision Accelerator Design with Intel® Movidius™ VPUs
-[VEGA Product](https://www.advantech.com/products/edge-ai-acceleration-modules/sub_3d060f1e-e73e-460d-b38c-c69f76312c91)
+[VEGA-320](https://www.advantech.com/products/3d060f1e-e73e-460d-b38c-c69f76312c91/vega-320/mod_f8aaa5f2-fe32-4a58-b5b4-2a02a857852a)m.2 Edge AI Module with one Intel® Movidius™ Myriad™ X VPU onboard
+[VEGA-330](https://www.advantech.com/products/3d060f1e-e73e-460d-b38c-c69f76312c91/vega-330/mod_120c6dca-5210-4d0d-b71f-8854a7faf1a1)miniPCIe Edge AI Module with two Intel® Movidius™ Myriad™ X VPUs onboard
 
 ### 2. Operating System
 These labs have been validated on [Ubuntu 16.04.6 64bit](https://ubuntu.com/download/alternative-downloads)

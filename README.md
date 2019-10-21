@@ -101,8 +101,7 @@ Install Opencv2 using below command
 
 * **Optimization Tools and Techniques** 
   - Slides - [Optimization Tools and Techniques](./presentations/04-05_Optimization_and_advanced_analytics.pdf)
-  - Lab 1 - Optimization Tools and Techniques [[C++](./optimization-tools-and-techniques/README.md)] <!-- [[Python](./optimization-tools-and-techniques/Python/optimization_tools_and_techniques.ipynb)] -->
-  - Lab 2- [Intel® VTune™ Amplifier tutorial](./optimization-tools-and-techniques/README_VTune.md)
+  - Lab - Optimization Tools and Techniques [[C++](./optimization-tools-and-techniques/README.md)] <!-- [[Python](./optimization-tools-and-techniques/Python/optimization_tools_and_techniques.ipynb)] -->
   
 * **Advanced Video Analytics**
   - Lab - Multiple models usage example [[C++](./advanced-video-analytics/multiple_models.md)] <!-- [[Python](./advanced-video-analytics/Python/advanced_video_analytics.ipynb)] -->

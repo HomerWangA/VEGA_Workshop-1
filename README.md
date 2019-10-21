@@ -10,7 +10,7 @@ In order to use this workshop content, you will need to setup your hardware and 
 The hardware requirements are mentioned in the System Requirement section of the [install guide](https://software.intel.com/en-us/articles/OpenVINO-Install-Linux)
 
 ### 2. Operating System
-These labs have been validated on Ubuntu* 16.04 OS. 
+These labs have been validated on Ubuntu* 16.04.6 OS. [Download](https://ubuntu.com/download/alternative-downloads)
 
 ### 3. Software installation steps
 #### a). Install Intel® Distribution of OpenVINO™ toolkit 
@@ -54,7 +54,7 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
   	
 	sudo python3 downloader.py --name mobilenet-ssd,ssd300,ssd512,squeezenet1.1,face-detection-retail-0004,age-gender-recognition-retail-0013,head-pose-estimation-adas-0001,emotions-recognition-retail-0003,facial-landmarks-35-adas-0002
 
-> :warning: This workshop content has been validated with Intel® Distribution of OpenVINO™ toolkit version R2 2019 (openvino_toolkit_2019.2.242). 
+> :warning: This workshop content has been validated with Intel® Distribution of OpenVINO™ toolkit version R2 2019 (openvino_toolkit_2019.3.334). 
 
 
 		

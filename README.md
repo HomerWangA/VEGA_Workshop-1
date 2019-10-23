@@ -35,10 +35,13 @@ Delete $HOME/inference_engine_samples folder if it already exists.
 
 	rm -rf $HOME/inference_engine_samples
 	
-Modify the python module version networkx>=1.11 to networkx==1.11. Due to model optimizer will transfer the model failed when using python module "networkx" version 2.3. Then enter to install_prerequisites folder to excute the installation script.
+Modify the python module version networkx>=1.11 to networkx==1.11. Due to model optimizer will transfer the model failed when using python module "networkx" version 2.3. 
 
 	sudo apt install -y vim
 	sudo vim /opt/intel/openvino/deployment_tools/model_optimizer/requirements.txt
+
+Then enter to install_prerequisites folder to excute the installation script.
+
 	cd /opt/intel/openvino/development_tools/model_optimizer/install_prerequisites
 	sudo -E ./install_prerequisites.sh
 	

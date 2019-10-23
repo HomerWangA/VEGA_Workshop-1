@@ -35,21 +35,15 @@ Delete $HOME/inference_engine_samples folder if it already exists.
 
 	rm -rf $HOME/inference_engine_samples
 	
-Modify the python module version networkx>=1.11 to networkx==1.11
+Modify the python module version networkx>=1.11 to networkx==1.11. Due to model optimizer will transfer the model failed when using python module "networkx" version 2.3. Then enter to install_prerequisites folder to excute the installation script.
 
 	sudo apt install -y vim
 	sudo vim /opt/intel/openvino/deployment_tools/model_optimizer/requirements.txt
-	
-Run demo scripts (any one of them or both if you want to both the demos) which will generate the folder $HOME/inference_engine_samples with the current Intel® Distribution of OpenVINO™ toolkit built. 
-
-	cat /opt/intel/openvino/development_tools/model_optimizer/requirements.txt
-	
-Due to model optimizer will transfer the model failed when using python module "networkx" version 2.3
-Modify "networkx>=1.11" to "networkx==1.11" and save it. Then enter to install_prerequisites folder to excute the installation script.
-
 	cd /opt/intel/openvino/development_tools/model_optimizer/install_prerequisites
 	sudo -E ./install_prerequisites.sh
-
+	
+Run demo scripts (any one of them or both if you want to both the demos) which will generate the folder $HOME/inference_engine_samples with the current Intel® Distribution of OpenVINO™ toolkit built. 
+	
 	cd /opt/intel/openvino/deployment_tools/demo
 	./demo_squeezenet_download_convert_run.sh
 	./demo_security_barrier_camera.sh

@@ -5,7 +5,7 @@ This example shows how to use hetero plugin to define preferences to run differe
 
 ### Car detection tutorial example 
 #### 1. Navigate to the tutorial directory
-	export SV=/opt/intel/workshop/smart-video-workshop
+	export SV=/opt/intel/workshop/VEGA-Workshop
 	source /opt/intel/openvino/bin/setupvars.sh
 	cd $SV/object-detection/
   

@@ -19,11 +19,11 @@ The Safety Gear Detection Sample is another demonstration of the powerful capabi
 
 #### 4. Download and clone the workshop content to the current directory (/opt/intel/workshop/smart-video-workshop).
 
-	git clone https://github.com/intel-iot-devkit/smart-video-workshop.git
+	git clone https://github.com/ADVANTECH-EIoT/VEGA_Workshop.git
 
 #### 5. Set short path for the workshop directory
 
-	export SV=/opt/intel/workshop/smart-video-workshop/
+	export SV=/opt/intel/workshop/VEGA_Workshop
 
 ## Part 1: Optimize a deep-learning model using the Model Optimizer (MO)
 
@@ -130,7 +130,7 @@ Here are the parameters used in the above command to run the application:
 
 	source /opt/intel/openvino/bin/setupvars.sh
 
-	export SV=/opt/intel/workshop/smart-video-workshop/
+	export SV=/opt/intel/workshop/VEGA_Workshop
 
 	cd $SV/object-detection
 

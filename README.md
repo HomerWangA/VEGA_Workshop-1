@@ -91,9 +91,6 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 * **Hardware Heterogeneity**
   - Lab - Hardware Heterogeneity [[C++](./hardware-heterogeneity/README.md)] <!-- [[Python](./hardware-heterogeneity/Python/hardware-heterogeneity.ipynb)] -->
 
-* **HW Acceleration with Intel® Movidius™ Neural Compute Stick**
-  - Lab - HW Acceleration with Intel® Movidius™ Neural Compute Stick [[C++](./HW-Acceleration-with-Movidious-NCS/README.md)] <!--[[Python](./HW-Acceleration-with-Movidious-NCS/Python/HW_Acceleration_with_Movidius_NCS.ipynb)] -->
-
 * **Optimization Tools and Techniques** 
   - Slides - [Optimization Tools and Techniques](./presentations/04-05_Optimization_and_advanced_analytics.pdf)
   - Lab - Optimization Tools and Techniques [[C++](./optimization-tools-and-techniques/README.md)] <!-- [[Python](./optimization-tools-and-techniques/Python/optimization_tools_and_techniques.ipynb)] -->

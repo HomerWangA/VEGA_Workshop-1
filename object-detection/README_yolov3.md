@@ -20,7 +20,7 @@ All YOLO models are originally implemented in the Darknet framework and consists
 .weights file with model weights
 #### 1. Clone the repository
 
-	export SV=/opt/intel/workshop/VEGA-Workshop
+	export SV=/opt/intel/workshop/VEGA_Workshop
 	cd $SV/object-detection/
 	git clone https://github.com/mystic123/tensorflow-yolo-v3.git
 	cd tensorflow-yolo-v3
@@ -134,7 +134,7 @@ Here ID 03e7:2485 without a description string is the Movidius device.
 
 ##### Setup a short path for the workshop directory
 
-	export SV=/opt/intel/workshop/VEGA-Workshop
+	export SV=/opt/intel/workshop/VEGA_Workshop
 
 	source /opt/intel/openvino/bin/setupvars.sh
 

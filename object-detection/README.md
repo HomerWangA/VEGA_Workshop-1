@@ -7,11 +7,11 @@ Model Optimizer is a cross-platform command-line tool that takes pre-trained dee
 Inference is the process of using a trained neural network to interpret data, such as images. This lab feeds a short video of cars, frame-by-frame, to the Inference Engine which subsequently utilizes an optimized trained neural network to detect cars. 
 
 ### Download workshop content and set directory path
-Please make sure to complete the [Lab Setup](https://github.com/intel-iot-devkit/smart-video-workshop/blob/master/Lab_setup.md). 
+Please make sure to complete the [Lab Setup](https://github.com/intel-iot-devkit/VEGA_Workshop/blob/master/Lab_setup.md). 
 	
 #### Set short path for the workshop directory
 
-	export SV=/opt/intel/workshop/VEGA-Workshop
+	export SV=/opt/intel/workshop/VEGA_Workshop
     
 ## Part 1: Optimize a deep-learning model using the Model Optimizer (MO)
 
@@ -122,7 +122,7 @@ Here are the parameters used in the above command to run the application:
  
 	source /opt/intel/openvino/bin/setupvars.sh
 	
-	export SV=/opt/intel/workshop/VEGA-Workshop
+	export SV=/opt/intel/workshop/VEGA_Workshop
 	
 	cd $SV/object-detection
  

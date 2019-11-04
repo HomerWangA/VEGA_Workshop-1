@@ -16,7 +16,7 @@ Advantech Edge AI Acceleration Modules
 [VEGA-330](https://www.advantech.com/products/3d060f1e-e73e-460d-b38c-c69f76312c91/vega-330/mod_120c6dca-5210-4d0d-b71f-8854a7faf1a1): miniPCIe Edge AI Module with two Intel® Movidius™ Myriad™ X VPUs onboard
 
 ### 2. Operating System
-These labs have been validated on [Ubuntu 16.04.6 64bit](https://ubuntu.com/download/alternative-downloads)
+These labs have been validated on [Ubuntu 16.04.6 64 bit](https://ubuntu.com/download/alternative-downloads)
 
 ### 3. Software installation steps
 #### a). Install Intel® Distribution of OpenVINO™ toolkit 

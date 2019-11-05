@@ -84,6 +84,7 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 
 ## Hands-on
 #### LAB 1: Security_barrier_camera_demo
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_Barrier_Camera_Demo.png)
 - Model Download
 - Model Optimizer
 - Inference Engine Compile

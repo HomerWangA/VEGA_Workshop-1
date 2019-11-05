@@ -82,13 +82,13 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 - Ubuntu 18.04 (64-bit)
 - Windows 10 LTSC 2019 (64-bit)
 
-## Hands-on LAB
-#### Security_barrier_camera_demo
+## Hands-on
+#### LAB 1: Security_barrier_camera_demo
 - Model Download
 - Model Optimizer
 - Inference Engine Compile
 - Excute the Inference Engine Sample
-#### Interactive_face_detection_demo
+#### LAB 2: Interactive_face_detection_demo
 - Model Download
 - Model Optimizer
 - Inference Engine Compile

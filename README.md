@@ -72,7 +72,7 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 
 > :warning: This workshop content has been validated with Intel® Distribution of OpenVINO™ toolkit version R3 2019 (openvino_toolkit_2019.3.334). 
 
-##Hands-on Pre-Configuration
+## Hands-on Pre-Configuration
 #### Requirements
 - Hardware & BIOS Configuration
 - Advantech VEGA-320/330
@@ -82,7 +82,7 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 - Ubuntu 18.04 (64-bit)
 - Windows 10 LTSC 2019 (64-bit)
 
-##Hands-on LAB
+## Hands-on LAB
 #### Security_barrier_camera_demo
 - Model Download
 - Model Optimizer

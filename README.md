@@ -83,17 +83,11 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 - Windows 10 LTSC 2019 (64-bit)
 
 ## Hands-on
-#### LAB 1: Security_barrier_camera_demo
+#### LAB 1: [Security_barrier_camera_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_barrier_camera_demo.md)
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_Barrier_Camera_Demo.png)
-- Model Download
-- Model Optimizer
-- Inference Engine Compile
-- Excute the Inference Engine Sample
+
 #### LAB 2: Interactive_face_detection_demo
-- Model Download
-- Model Optimizer
-- Inference Engine Compile
-- Excute the Inference Engine Sample
+
 
 <!--	
 * **Workshop Survey**

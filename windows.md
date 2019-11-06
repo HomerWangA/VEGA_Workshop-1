@@ -3,18 +3,12 @@ Date	2019/09/23
 
 Installation Process
 Step1: Download all of the Installation Packages
-- OpenVINO Toolkit R2.0.1 (19 Aug 2019)
-http://registrationcenter-download.intel.com/akdlm/irc_nas/15790/w_openvino_toolkit_p_2019.2.275.exe
-- Visual Studio 2019 Community
-https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16
-- MS Build Tool 2019
-https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16
-- Cmake 3.14.6 win64-x64
-https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
-- Python 3.6.5 amd64
-https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
-- (Optional for GPU) Intel Graphic 21.20.15.65 or higher
-https://downloadcenter.intel.com/product/80939/Graphics-Drivers?elq_cid=5783180
+- [OpenVINO Toolkit R2.0.1 (19 Aug 2019)](https://software.intel.com/en-us/openvino-toolkit/choose-download/free-download-windows)
+- [Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16)
+- [MS Build Tool 2019](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16)
+- [Cmake 3.14.6 win64-x64](https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe)
+- [Python 3.6.5 amd64](https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe)
+- [(Optional for GPU) Intel Graphic 21.20.15.65 or higher](https://downloadcenter.intel.com/product/80939/Graphics-Drivers?elq_cid=5783180)
 
 Step2: Install Visual Studio 2019 Community
  

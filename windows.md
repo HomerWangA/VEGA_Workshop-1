@@ -1,7 +1,7 @@
 ## Install Intel OpenVINO on Windows 10 LTSC 2019
 Date	2019/09/23
 
-### Step1: Download all of the Installation Packages
+### Step 1: Download all of the Installation Packages
 - [OpenVINO Toolkit R2.0.1 (19 Aug 2019)](https://software.intel.com/en-us/openvino-toolkit/choose-download/free-download-windows)
 - [Visual Studio 2019 Community](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16)
 - [MS Build Tool 2019](https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16)
@@ -9,7 +9,7 @@ Date	2019/09/23
 - [Python 3.6.5 amd64](https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe)
 - [(Optional for GPU) Intel Graphic 21.20.15.65 or higher](https://downloadcenter.intel.com/product/80939/Graphics-Drivers?elq_cid=5783180)
 
-### Step2: Install Visual Studio 2019 Community
+### Step 2: Install Visual Studio 2019 Community
  
  
  
@@ -23,28 +23,28 @@ Date	2019/09/23
  
  
 
-### Step3: Install MS Build Tool 2019
+### Step 3: Install MS Build Tool 2019
  
  
  
  
  
 
-Step4: Install Cmake 3.14.6 win64-x64
+### Step 4: Install Cmake 3.14.6 win64-x64
   
   
   
 
-Step5: Install Python 3.6.5 64-bit
+### Step 5: Install Python 3.6.5 64-bit
  
   
 
-Step6: Install OpenVINO Toolkit R2.0.1
+### Step 6: Install OpenVINO Toolkit R2.0.1
  
   
   
 
-Step7: Configure OpenVINO Environment System Variables (Important)
+### Step 7: Configure OpenVINO Environment System Variables (Important)
  
    
 
@@ -68,11 +68,11 @@ Edit the Path variable under System Variables and add the following entries:
 ||%INTEL_OPENVINO_DIR%\opencv\bin  |
 ||%INTEL_OPENVINO_DIR%\openvx\bin |
 
-Step8: Configure the Model Optimizer for all supported frameworks
+### Step 8: Configure the Model Optimizer for all supported frameworks
  
  
  
-Step9: Using administrator role to execute windows command to download some face detection models
+### Step 9: Using administrator role to execute windows command to download some face detection models
 *Notice: You can download the entire models, but it might take over 30 minutes
 cd C:\Program Files (x86)\IntelSWTools\openvino\deployment_tools\tools\model_downloader
  
@@ -80,15 +80,15 @@ python downloader.py --name face-detection-retail-0004,age-gender-recognition-re
  
 *Notice: If you meet error message no module named yaml, please enter “pip install pyyaml” to install it
 
-Step10: Compile Inference Engine Sample
+### Step 10: Compile Inference Engine Sample
 cd C:\Program Files (x86)\IntelSWTools\openvino\deployment_tools\inference_engine\demos
  
  
  
-Step11: Run the interactive_face_detection_demo sample
+### Step 11: Run the interactive_face_detection_demo sample
 You can check all of the parameters with -help
  
-Step12: with face-detection model
+### Step 12: with face-detection model
  
 CPU	interactive_face_detection_demo.exe -i cam -m "C:\Program Files (x86)\IntelSWTools\openvino\deployment_tools\tools\model_downloader\Retail\object_detection\face\sqnet1.0modif-ssd\0004\dldt\FP32\face-detection-retail-0004.xml" -d CPU
 GPU	interactive_face_detection_demo.exe -i cam -m "C:\Program Files (x86)\IntelSWTools\openvino\deployment_tools\tools\model_downloader\Retail\object_detection\face\sqnet1.0modif-ssd\0004\dldt\FP32\face-detection-retail-0004.xml" -d GPU
@@ -99,7 +99,7 @@ VPU
 https://docs.openvinotoolkit.org/2019_R2/_docs_install_guides_installing_openvino_windows.html#Install-GPU
 https://docs.openvinotoolkit.org/2019_R2/_docs_install_guides_installing_openvino_windows.html#hddl-myriad
  
-Step13: Execute the interactive_face_detection_demo sample with face-detection model and age-gender
+### Step 13: Execute the interactive_face_detection_demo sample with face-detection model and age-gender
  
 interactive_face_detection_demo.exe -i cam -m "C:\Program Files (x86)\IntelSWTools\openvino\deployment_tools\tools\model_downloader\Retail\object_detection\face\sqnet1.0modif-ssd\0004\dldt\FP32\face-detection-retail-0004.xml" -d CPU -m_ag "C:\Program Files in(x86)\IntelSWTools\openvino\deployment_tools\tools\model_downloader\Retail\object_attributes\age_gender\dldt\FP32\age-gender-recognition-retail-0013.xml" -d_ag CPU
 

@@ -3,17 +3,17 @@ Date	2019/09/23
 
 Installation Process
 Step1: Download all of the Installation Packages
-	OpenVINO Toolkit R2.0.1 (19 Aug 2019)
+- OpenVINO Toolkit R2.0.1 (19 Aug 2019)
 http://registrationcenter-download.intel.com/akdlm/irc_nas/15790/w_openvino_toolkit_p_2019.2.275.exe
-	Visual Studio 2019 Community
+- Visual Studio 2019 Community
 https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=Community&rel=16
-	MS Build Tool 2019
+- MS Build Tool 2019
 https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16
-	Cmake 3.14.6 win64-x64
+- Cmake 3.14.6 win64-x64
 https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
-	Python 3.6.5 amd64
+- Python 3.6.5 amd64
 https://www.python.org/ftp/python/3.6.5/python-3.6.5-amd64.exe
-	(Optional for GPU) Intel Graphic 21.20.15.65 or higher
+- (Optional for GPU) Intel Graphic 21.20.15.65 or higher
 https://downloadcenter.intel.com/product/80939/Graphics-Drivers?elq_cid=5783180
 
 Step2: Install Visual Studio 2019 Community
@@ -55,14 +55,15 @@ Step7: Configure OpenVINO Environment System Variables (Important)
  
    
 
-Name	Value	Notes
-INTEL_OPENVINO_DIR	C:\Program Files (x86)\IntelSWTools\openvino	Path to your OpenVINO™ install
-INTEL_CVSDK_DIR	%INTEL_OPENVINO_DIR%	
-OpenCV_DIR	%INTEL_OPENVINO_DIR%\opencv\cmake	
-OPENVX_FOLDER	%INTEL_OPENVINO_DIR%\openvx	
-InferenceEngine_DIR	%INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\share	
-HDDL_INSTALL_DIR	%INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\external\hddl	
-PYTHONPATH	%INTEL_OPENVINO_DIR%\python\python3.6	Check your Python* version and adjust
+Name |	Value | Notes
+--- | --- | --- 
+INTEL_OPENVINO_DIR | C:\Program Files (x86)\IntelSWTools\openvino | Path to your OpenVINO™ install
+INTEL_CVSDK_DIR | %INTEL_OPENVINO_DIR% |	
+OpenCV_DIR | %INTEL_OPENVINO_DIR%\opencv\cmake |	
+OPENVX_FOLDER | %INTEL_OPENVINO_DIR%\openvx |
+InferenceEngine_DIR | %INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\share |	
+HDDL_INSTALL_DIR | %INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\external\hddl |	
+PYTHONPATH | %INTEL_OPENVINO_DIR%\python\python3.6 | Check your Python* version and adjust 
 (only 3.5, 3.6 or 3.7 available)
 
 Edit the Path variable under System Variables and add the following entries:

@@ -74,7 +74,7 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 
 ## Hands-on Pre-Configuration
 #### Requirements
-- [[Hardware & BIOS Configuration]] (https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hardware_&_BIOS_Configuration.md)
+- [[Hardware & BIOS Configuration]](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hardware_&_BIOS_Configuration.md)
 - [[VEGA-320/330 Check]](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/VEGA_Check.md)
 
 #### OpenVINO Installation

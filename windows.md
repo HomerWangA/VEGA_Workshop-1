@@ -56,7 +56,7 @@ Step7: Configure OpenVINO Environment System Variables (Important)
    
 
 Name |	Value
---- | --- | --- 
+--- | --- 
 INTEL_OPENVINO_DIR | C:\Program Files (x86)\IntelSWTools\openvino
 INTEL_CVSDK_DIR | %INTEL_OPENVINO_DIR%	
 OpenCV_DIR | %INTEL_OPENVINO_DIR%\opencv\cmake	

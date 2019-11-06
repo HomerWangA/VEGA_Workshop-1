@@ -18,13 +18,13 @@ In order to use this workshop content, you will need to setup your hardware and 
 These labs have been validated on [Ubuntu 16.04/18.04 64 bit]
 
 ### 3. Intel OpenVINO Installation Steps
-- [[Ubuntu 16.04/18.04 (64-bit)]](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/ubuntu.md)
-- [[Windows 10 LTSC 2019 (64-bit)]](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/windows.md)
+- [Ubuntu 16.04/18.04 (64-bit)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/ubuntu.md)
+- [Windows 10 LTSC 2019 (64-bit)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/windows.md)
 
 > :warning: This workshop content has been validated with Intel® Distribution of OpenVINO™ toolkit version R3 2019 (openvino_toolkit_2019.3.334). 
 
 ### 4. Hands-on Pre-Configuration
-- [[VEGA-320/330 Check]](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/VEGA_Check.md)
+- [VEGA-320/330 Check](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/VEGA_Check.md)
 
 #### 5. Hands-on LABs
 - [LAB 1: Security barrier camera demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_barrier_camera_demo.md)

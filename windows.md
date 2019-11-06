@@ -55,16 +55,15 @@ Step7: Configure OpenVINO Environment System Variables (Important)
  
    
 
-Name |	Value | Notes
+Name |	Value
 --- | --- | --- 
-INTEL_OPENVINO_DIR | C:\Program Files (x86)\IntelSWTools\openvino | Path to your OpenVINO™ install
-INTEL_CVSDK_DIR | %INTEL_OPENVINO_DIR% |	
-OpenCV_DIR | %INTEL_OPENVINO_DIR%\opencv\cmake |	
-OPENVX_FOLDER | %INTEL_OPENVINO_DIR%\openvx |
-InferenceEngine_DIR | %INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\share |	
-HDDL_INSTALL_DIR | %INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\external\hddl |	
-PYTHONPATH | %INTEL_OPENVINO_DIR%\python\python3.6 | Check your Python* version and adjust 
-(only 3.5, 3.6 or 3.7 available)
+INTEL_OPENVINO_DIR | C:\Program Files (x86)\IntelSWTools\openvino
+INTEL_CVSDK_DIR | %INTEL_OPENVINO_DIR%	
+OpenCV_DIR | %INTEL_OPENVINO_DIR%\opencv\cmake	
+OPENVX_FOLDER | %INTEL_OPENVINO_DIR%\openvx
+InferenceEngine_DIR | %INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\share	
+HDDL_INSTALL_DIR | %INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\external\hddl	
+PYTHONPATH | %INTEL_OPENVINO_DIR%\python\python3.6
 
 Edit the Path variable under System Variables and add the following entries:
 Name	Value

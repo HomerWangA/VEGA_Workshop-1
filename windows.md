@@ -66,13 +66,13 @@ HDDL_INSTALL_DIR | %INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\extern
 PYTHONPATH | %INTEL_OPENVINO_DIR%\python\python3.6
 
 Edit the Path variable under System Variables and add the following entries:
-Name | Value
---- | ---
-PATH |	%INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\bin\intel64\Release
-	%INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\bin\intel64\Debug
-	%HDDL_INSTALL_DIR%\bin
-	%INTEL_OPENVINO_DIR%\opencv\bin
-	%INTEL_OPENVINO_DIR%\openvx\bin
+|  Name | Value  |
+| ------------ | ------------ |
+| PATH  | %INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\bin\intel64\Release  |
+|   | %INTEL_OPENVINO_DIR%\deployment_tools\inference_engine\bin\intel64\Debug  |
+|   | %HDDL_INSTALL_DIR%\bin 
+|   | %INTEL_OPENVINO_DIR%\opencv\bin  |
+|   |  %INTEL_OPENVINO_DIR%\openvx\bin |
 
 Step8: Configure the Model Optimizer for all supported frameworks
  

@@ -74,12 +74,12 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 
 ## Hands-on Pre-Configuration
 #### Requirements
-- Hardware & BIOS Configuration
-- Advantech VEGA-320/330
+- [[Hardware & BIOS Configuration]] (https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hardware_&_BIOS_ Configuration.md)
+- [[VEGA-320/330 Check]](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/VEGA_Check.md)
 
 #### OpenVINO Installation
-- Ubuntu 16.04/18.04 (64-bit)
-- Windows 10 LTSC 2019 (64-bit)
+- [[Ubuntu 16.04/18.04 (64-bit)]](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/ubuntu.md)
+- [[Windows 10 LTSC 2019 (64-bit)]](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/windows.md)
 
 ## Hands-on
 #### [LAB 1: Security barrier camera demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_barrier_camera_demo.md)

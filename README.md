@@ -78,8 +78,7 @@ Run demo scripts (any one of them or both if you want to both the demos) which w
 - Advantech VEGA-320/330
 
 #### OpenVINO Installation
-- Ubuntu 16.04 (64-bit)
-- Ubuntu 18.04 (64-bit)
+- Ubuntu 16.04/18.04 (64-bit)
 - Windows 10 LTSC 2019 (64-bit)
 
 ## Hands-on

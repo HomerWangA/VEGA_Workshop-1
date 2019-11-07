@@ -27,20 +27,21 @@ Installation Notes:
 * You can use either a GUI installation wizard or command-line instructions (CLI).
 * Screenshots are provided for the GUI, but not for CLI. The following information also applies to CLI and will be helpful to your installation where you will be presented with the same choices and tasks.
 ## 5. Choose your installation option:
-Option 1: GUI Installation Wizard:
+- Option 1: GUI Installation Wizard:
 	
-	sudo ./install_GUI.sh
+		sudo ./install_GUI.sh
 	
-Option 2: Command-Line Instructions:
+- Option 2: Command-Line Instructions:
 	
-	sudo ./install.sh
+		sudo ./install.sh
 	
 ## 6.	Follow the instructions on your screen. Watch for informational messages such as the following in case you must complete additional steps: 
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Linux-openvino-install-linux-01.png)
 ## 7.	If you select the default options, the Installation summary GUI screen looks like this: 
 ![image]( https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Linux-openvino-install-linux-02.png)
 
-* Optional: You can choose Customize to change the installation directory or the components you want to install: 
+* Optional: You can choose Customize to change the installation directory or the components you want to install:
+
 ![image]( https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Linux-openvino-install-linux-03.png)
 
 When installed as root the default installation directory for the Intel Distribution of OpenVINO is `/opt/intel/openvino_<version>/`.
@@ -49,6 +50,7 @@ For simplicity, a symbolic link to the latest installation is also created: /opt
 NOTE: The Intel® Media SDK component is always installed in the /opt/intel/mediasdk directory regardless of the OpenVINO installation path chosen.
 ## 8.	A Complete screen indicates that the core components have been installed:
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Linux-openvino-install-linux-04.png)
+
 The first core components are installed. Continue to the next section to install additional dependencies.
 # Install External Software Dependencies
 NOTE: If you installed the Intel® Distribution of OpenVINO™ to the non-default install directory, replace /opt/intel with the directory in which you installed the software.
@@ -111,25 +113,25 @@ Configure individual frameworks separately ONLY if you did not select Option 1 a
 	cd /opt/intel/openvino/deployment_tools/model_optimizer/install_prerequisites
 	
 ## 2.	Run the script for your model framework. You can run more than one script:
-* For Caffe:
+- For Caffe:
 
-	sudo ./install_prerequisites_caffe.sh
+		sudo ./install_prerequisites_caffe.sh
+
+- For TensorFlow:
+
+		sudo ./install_prerequisites_tf.sh
 	
-* For TensorFlow:
+- For MXNet:
 
-	sudo ./install_prerequisites_tf.sh
+		sudo ./install_prerequisites_mxnet.sh
 	
-* For MXNet:
+- For ONNX:
 
-	sudo ./install_prerequisites_mxnet.sh
+		sudo ./install_prerequisites_onnx.sh
 	
-* For ONNX:
+- For Kaldi:
 
-	sudo ./install_prerequisites_onnx.sh
-	
-* For Kaldi:
-
-	sudo ./install_prerequisites_kaldi.sh
+		sudo ./install_prerequisites_kaldi.sh
 	
 The Model Optimizer is configured for one or more frameworks.
 You are ready to compile the samples by running the verification scripts.

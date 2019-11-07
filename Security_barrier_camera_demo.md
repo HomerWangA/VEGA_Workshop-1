@@ -1,9 +1,24 @@
-## Security barrier camera demo
+## Security barrier camera
 
-#### Model Downloader
+#### Download  Model
+```
+cd /opt/intel/openvino/deployment_tools/tools/model_downloader
+sudo python3 downloader.py --name 
+```
 
-#### Moder Optimizer 
+#### Moder Optimizer
+```
+
+```
 
 #### Inference Engine Sample Compile
 
-#### Result
+```
+
+```
+
+#### Excute the application
+
+```
+
+```

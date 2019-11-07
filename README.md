@@ -22,7 +22,7 @@ In order to use this workshop content, you will need to setup your hardware and 
 - [Ubuntu 16.04/18.04 (x86_64)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/ubuntu.md)
 - [Windows 10 LTSC 2019 (64-bit)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/windows.md)
 
-### 4. Hands-on LABs
+### 4. Hands-on LABs (Ubuntu)
 - [LAB 1: Security barrier camera demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_barrier_camera_demo.md)
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_Barrier_Camera_Demo.png)
 

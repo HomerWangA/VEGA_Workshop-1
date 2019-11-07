@@ -2,6 +2,9 @@
 Download the Intel® Distribution of OpenVINO™ toolkit package file from [Intel® Distribution of OpenVINO™ toolkit for Linux*]( https://software.intel.com/en-us/openvino-toolkit/choose-download). Select the Intel® Distribution of OpenVINO™ toolkit for Linux package from the dropdown menu. 
 
 ## 1.	Open a command prompt terminal window.
+```
+Ctrl + Alt + t
+```
 ## 2.	Change directories to where you downloaded the Intel Distribution of OpenVINO toolkit for Linux* package file.
 If you downloaded the package file to the current user's Downloads directory: 
 	

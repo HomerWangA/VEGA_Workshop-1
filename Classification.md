@@ -38,6 +38,7 @@ optional arguments:
 
 #### Step 1: Download squeezenet 1.1 Model
 ```
+export SV=/opt/advantech/VEGA_Workshop/
 cd /opt/intel/openvino/deployment_tools/tools/model_downloader
 sudo python3 downloader.py --name squeezenet1.1
 ```
@@ -46,7 +47,7 @@ sudo python3 downloader.py --name squeezenet1.1
 #### Step 2: Moder Optimizer
 ```
 cd /opt/intel/openvino/deployment_tools/model_optimizer
-
+python3 mo_caffe.py --input_model /opt/intel/openvino/deployment_tools/tools/model_downloader/public/squeezenet1.1/squeezenet1.1.caffemodel -o $SV/intel
 ```
 
 #### Step 3: Inference Engine Sample Compile

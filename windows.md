@@ -66,5 +66,7 @@ Edit the Path variable under System Variables and add the following entries:
 ||%INTEL_OPENVINO_DIR%\opencv\bin  |
 ||%INTEL_OPENVINO_DIR%\openvx\bin |
 
-
+### Step8: Configure the Model Optimizer for all supported frameworks
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/windows_25.png)
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/windows_26.png)
 

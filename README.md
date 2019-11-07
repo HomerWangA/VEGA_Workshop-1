@@ -16,11 +16,11 @@ In order to use this workshop content, you will need to setup your hardware and 
 
 ### 2. OS & Pre-Configuration
 - Ubuntu 18.04 x86_64 or Windows 10 2019 LTSC 64 bit
-- [VEGA-320/330 Check](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/VEGA_Check.md)
+- [VEGA-320/330 Check](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Pre_configure/VEGA_Check.md)
 
 ### 3. Intel OpenVINO Installation Steps
-- [Ubuntu 16.04/18.04 (x86_64)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/ubuntu.md)
-- [Windows 10 LTSC 2019 (64-bit)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/windows.md)
+- [Ubuntu 16.04/18.04 (x86_64)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Installation/ubuntu.md)
+- [Windows 10 LTSC 2019 (64-bit)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Installation/windows.md)
 
 ### 4. LAB Setup
 
@@ -59,12 +59,12 @@ Step 5. Set short path for the workshop directory
 
 ### 5. Hands-on LABs (Ubuntu)
 
-- [LAB 1: Classification with squeezenet1.1](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Classification.md)
+- [LAB 1: Classification with squeezenet1.1](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hands_on/classification_sample_async/classification_sample_async.md)
 
-- [LAB 2: Security barrier camera demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_barrier_camera_demo.md)
-![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_Barrier_Camera_Demo.png)
+- [LAB 2: Security barrier camera demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hands_on/security_barrier_camera_demo/security_barrier_camera_demo.md)
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Security_Barrier_Camera_Demo.png)
 
-- [LAB 3: Interactive face detection](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Interactive_face_detection.md)
+- [LAB 3: Interactive face detection](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hands_on/security_barrier_camera_demo/security_barrier_camera_demo.md)
 
 
 <!--	

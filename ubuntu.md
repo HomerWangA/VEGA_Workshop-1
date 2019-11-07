@@ -4,13 +4,19 @@ Download the Intel® Distribution of OpenVINO™ toolkit package file from [Inte
 ## 1.	Open a command prompt terminal window.
 ## 2.	Change directories to where you downloaded the Intel Distribution of OpenVINO toolkit for Linux* package file.
 If you downloaded the package file to the current user's Downloads directory: 
+	
 	cd ~/Downloads/
+	
 By default, the file is saved as l_openvino_toolkit_p_<version>.tgz. 
 ## 3.	Unpack the .tgz file:
+	
 	tar -xvzf l_openvino_toolkit_p_<version>.tgz
+	
 The files are unpacked to the l_openvino_toolkit_p_<version> directory.
 ## 4.	Go to the l_openvino_toolkit_p_<version> directory:
+	
 	cd l_openvino_toolkit_p_<version>
+	
 If you have a previous version of the Intel Distribution of OpenVINO toolkit installed, rename or delete these two directories:
 
 	/home/<user>/inference_engine_samples_build
@@ -22,9 +28,13 @@ Installation Notes:
 * Screenshots are provided for the GUI, but not for CLI. The following information also applies to CLI and will be helpful to your installation where you will be presented with the same choices and tasks.
 ## 5. Choose your installation option:
 - Option 1: GUI Installation Wizard:
+	
 	sudo ./install_GUI.sh
+	
 - Option 2: Command-Line Instructions:
+	
 	sudo ./install.sh
+	
 ## 6.	Follow the instructions on your screen. Watch for informational messages such as the following in case you must complete additional steps: 
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Linux-openvino-install-linux-01.png)
 ## 7.	If you select the default options, the Installation summary GUI screen looks like this: 
@@ -87,23 +97,39 @@ NOTE: Since the TensorFlow framework is not officially supported on CentOS*, the
 IMPORTANT: The Internet access is required to execute the following steps successfully. If you have access to the Internet through the proxy server only, please make sure that it is configured in your OS environment.
 Option 1: Configure all supported frameworks at the same time
 ## 1.	Go to the Model Optimizer prerequisites directory:
-cd /opt/intel/openvino/deployment_tools/model_optimizer/install_prerequisites
+
+	cd /opt/intel/openvino/deployment_tools/model_optimizer/install_prerequisites
+	
 ## 2.	Run the script to configure the Model Optimizer for Caffe, TensorFlow, MXNet, Kaldi*, and ONNX:
-sudo ./install_prerequisites.sh
+
+	sudo ./install_prerequisites.sh
+	
 Option 2: Configure each framework separately
 Configure individual frameworks separately ONLY if you did not select Option 1 above.
 ## 1.	Go to the Model Optimizer prerequisites directory:
-cd /opt/intel/openvino/deployment_tools/model_optimizer/install_prerequisites
+
+	cd /opt/intel/openvino/deployment_tools/model_optimizer/install_prerequisites
+	
 ## 2.	Run the script for your model framework. You can run more than one script:
 * For Caffe:
+
 	sudo ./install_prerequisites_caffe.sh
+	
 * For TensorFlow:
+
 	sudo ./install_prerequisites_tf.sh
+	
 * For MXNet:
+
 	sudo ./install_prerequisites_mxnet.sh
+	
 * For ONNX:
+
 	sudo ./install_prerequisites_onnx.sh
+	
 * For Kaldi:
+
 	sudo ./install_prerequisites_kaldi.sh
+	
 The Model Optimizer is configured for one or more frameworks.
 You are ready to compile the samples by running the verification scripts.

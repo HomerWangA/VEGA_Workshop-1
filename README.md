@@ -64,7 +64,7 @@ Step 5. Set short path for the workshop directory
 - [LAB 2: security_barrier_camera_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hands_on/security_barrier_camera_demo/security_barrier_camera_demo.md)
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Security_Barrier_Camera_Demo.png)
 
-- [LAB 3: security_barrier_camera_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hands_on/security_barrier_camera_demo/security_barrier_camera_demo.md)
+- [LAB 3: interactive_face_detection_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/interactive_face_detection_demo/interactive_face_detection_demo.md)
 
 - [LAB 4: human_pose_estimation_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/human_pose_estimation_demo/human_pose_estimation_demo.md)
 

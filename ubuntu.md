@@ -22,13 +22,9 @@ Installation Notes:
 * Screenshots are provided for the GUI, but not for CLI. The following information also applies to CLI and will be helpful to your installation where you will be presented with the same choices and tasks.
 ## 5. Choose your installation option:
 - Option 1: GUI Installation Wizard:
-	
 	sudo ./install_GUI.sh
-
 - Option 2: Command-Line Instructions:
-	
 	sudo ./install.sh
-
 ## 6.	Follow the instructions on your screen. Watch for informational messages such as the following in case you must complete additional steps: 
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Linux-openvino-install-linux-01.png)
 ## 7.	If you select the default options, the Installation summary GUI screen looks like this: 

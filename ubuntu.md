@@ -27,11 +27,11 @@ Installation Notes:
 * You can use either a GUI installation wizard or command-line instructions (CLI).
 * Screenshots are provided for the GUI, but not for CLI. The following information also applies to CLI and will be helpful to your installation where you will be presented with the same choices and tasks.
 ## 5. Choose your installation option:
-- Option 1: GUI Installation Wizard:
+Option 1: GUI Installation Wizard:
 	
 	sudo ./install_GUI.sh
 	
-- Option 2: Command-Line Instructions:
+Option 2: Command-Line Instructions:
 	
 	sudo ./install.sh
 	
@@ -43,10 +43,10 @@ Installation Notes:
 * Optional: You can choose Customize to change the installation directory or the components you want to install: 
 ![image]( https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Linux-openvino-install-linux-03.png)
 
-When installed as root the default installation directory for the Intel Distribution of OpenVINO is /opt/intel/openvino_<version>/.
+When installed as root the default installation directory for the Intel Distribution of OpenVINO is `/opt/intel/openvino_<version>/`.
 For simplicity, a symbolic link to the latest installation is also created: /opt/intel/openvino/.
 
-NOTE: The Intel® Media SDK component is always installed in the */opt/intel/mediasdk* directory regardless of the OpenVINO installation path chosen.
+NOTE: The Intel® Media SDK component is always installed in the /opt/intel/mediasdk directory regardless of the OpenVINO installation path chosen.
 ## 8.	A Complete screen indicates that the core components have been installed:
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Linux-openvino-install-linux-04.png)
 The first core components are installed. Continue to the next section to install additional dependencies.
@@ -90,7 +90,7 @@ The Model Optimizer is a Python*-based command line tool for importing trained m
 The Model Optimizer is a key component of the Intel Distribution of OpenVINO toolkit. You cannot perform inference on your trained model without running the model through the Model Optimizer. When you run a pre-trained model through the Model Optimizer, your output is an Intermediate Representation (IR) of the network. The Intermediate Representation is a pair of files that describe the whole model:
 * .xml: Describes the network topology
 * .bin: Contains the weights and biases binary data
-For more information about the Model Optimizer, refer to the Model Optimizer Developer Guide(https://docs.openvinotoolkit.org/latest/_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html). 
+For more information about the Model Optimizer, refer to the Model Optimizer Developer [Guide](https://docs.openvinotoolkit.org/latest/_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html). 
 # Model Optimizer Configuration Steps
 You can choose to either configure all supported frameworks at once OR configure one framework at a time. Choose the option that best suits your needs. If you see error messages, make sure you installed all dependencies.
 NOTE: Since the TensorFlow framework is not officially supported on CentOS*, the Model Optimizer for TensorFlow can't be configured and ran on those systems.

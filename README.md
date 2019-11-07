@@ -14,15 +14,15 @@ In order to use this workshop content, you will need to setup your hardware and 
 #### Option 2. Advantech AIR-200 withc VEGA-330
 [VEGA-330](https://www.advantech.com/products/3d060f1e-e73e-460d-b38c-c69f76312c91/vega-330/mod_120c6dca-5210-4d0d-b71f-8854a7faf1a1): miniPCIe Edge AI Module with two Intel® Movidius™ Myriad™ X VPUs onboard
 
-### 3. Hands-on Pre-Configuration
-- Operation System: Ubuntu 18.04 x86_64 or Windows 10 2019 LTSC 64 bit
+### 2. Operation System & Pre-Configuration
+- Ubuntu 18.04 x86_64 or Windows 10 2019 LTSC 64 bit
 - [VEGA-320/330 Check](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/VEGA_Check.md)
 
-### 4. Intel OpenVINO Installation Steps
+### 3. Intel OpenVINO Installation Steps
 - [Ubuntu 16.04/18.04 (x86_64)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/ubuntu.md)
 - [Windows 10 LTSC 2019 (64-bit)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/windows.md)
 
-### 5. Hands-on LABs
+### 4. Hands-on LABs
 - [LAB 1: Security barrier camera demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_barrier_camera_demo.md)
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Security_Barrier_Camera_Demo.png)
 

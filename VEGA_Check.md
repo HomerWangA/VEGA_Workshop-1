@@ -1,6 +1,6 @@
 ## How to confirm that the operating system has the recognition module?
 
-> :warning: **If you didn't see the VEGA module information by following methods, suggest checking your BIOS settings or try replace another VEGA module.** 
+> :warning: **When you can't see the VEGA module information by following methods, please checking your BIOS settings or try replace another VEGA module.** 
 
 ### Windows 
 

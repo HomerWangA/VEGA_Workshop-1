@@ -33,3 +33,4 @@ Step 1. Use demsg command to chek the VEGA module detect or not.
 Step 2. Use lsub command to chek the VEGA module detect or not.
 
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_7.png)
+

@@ -42,7 +42,8 @@ Step 3. Navigate to the new directory
 	cd /opt/advantech
 
 Step 4. Download and clone the workshop content to the current directory (/opt/intel/workshop/smart-video-workshop).
-
+	
+	sudo apt install -y git
 	git clone https://github.com/ADVANTECH-EIoT/VEGA_Workshop.git
 	
 If you get a fatal message, "fatal: destination path 'smart-video-workshop' already exists and is not an empty directory.

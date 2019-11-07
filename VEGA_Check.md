@@ -34,3 +34,6 @@ Step 2. Use lsub command to chek the VEGA module detect or not.
 
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/stauts_7.png)
 
+**You can see there a 5 Movidius chips are detected, because there are one VEGA-320 and two VEGA-330 in this system**
+
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/stauts_8.png)

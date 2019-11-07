@@ -138,3 +138,28 @@ Configure individual frameworks separately ONLY if you did not select Option 1 a
 	
 The Model Optimizer is configured for one or more frameworks.
 You are ready to compile the samples by running the verification scripts.
+
+
+# Configuration Guide for the Intel® Distribution of OpenVINO™ toolkit and the Intel® Vision Accelerator Design with Intel® Movidius™ VPUs on Linux*
+
+NOTES:
+These steps are only required if you want to perform inference on Intel® Vision Accelerator Design with Intel® Movidius™ VPUs.
+If you installed the Intel® Distribution of OpenVINO™ to the non-default install directory, replace /opt/intel with the directory in which you installed the software.
+
+For Intel® Vision Accelerator Design with Intel® Movidius™ VPUs, the following additional installation steps are required.
+
+Set the environment variables:
+
+	source /opt/intel/openvino/bin/setupvars.sh
+	
+NOTE: The HDDL_INSTALL_DIR variable is set to <openvino_install_dir>/deployment_tools/inference_engine/external/hddl. If you installed the Intel® Distribution of OpenVINO™ to the default install directory, the HDDL_INSTALL_DIR was set to /opt/intel/openvino/deployment_tools/inference_engine/external/hddl.
+
+Install dependencies:
+
+	${HDDL_INSTALL_DIR}/install_IVAD_VPU_dependencies.sh
+	
+Note, if the Linux kernel is updated after the installation, it is required to install drivers again:
+
+	cd ${HDDL_INSTALL_DIR}/drivers
+	sudo ./setup.sh install
+Now the dependencies are installed and you are ready to use the Intel® Vision Accelerator Design with Intel® Movidius™ with the Intel® Distribution of OpenVINO™ toolkit.

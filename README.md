@@ -9,11 +9,9 @@ This workshop will walk you through a computer vision workflow using the latest 
 
 In order to use this workshop content, you will need to setup your hardware and install the Intel® Distribution of OpenVINO™ toolkit for infering your computer vision application.  
 ### 1. Hardware requirements
-#### a). Advantech AIR-100
-#### b). Advantech Edge AI Acceleration Modules with Intel® Movidius™ VPUs
-
+#### a). Advantech AIR-100 with VEGA-320
 [VEGA-320](https://www.advantech.com/products/3d060f1e-e73e-460d-b38c-c69f76312c91/vega-320/mod_f8aaa5f2-fe32-4a58-b5b4-2a02a857852a): m.2 Edge AI Module with one Intel® Movidius™ Myriad™ X VPU onboard
-
+#### b). Advantech AIR-200 withc VEGA-330
 [VEGA-330](https://www.advantech.com/products/3d060f1e-e73e-460d-b38c-c69f76312c91/vega-330/mod_120c6dca-5210-4d0d-b71f-8854a7faf1a1): miniPCIe Edge AI Module with two Intel® Movidius™ Myriad™ X VPUs onboard
 
 ### 3. Hands-on Pre-Configuration

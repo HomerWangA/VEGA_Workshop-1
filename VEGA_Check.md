@@ -14,6 +14,16 @@ VEGA-330
 
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_4.png)
 
+When you excute inference engine with VEGA, the USB device name will change to "VSC Loopback Device"
+
+VEGA-320
+
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_2.png)
+
+VEGA-330
+
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_3.png)
+
 ### Linux
 
 Step 1. 

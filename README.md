@@ -14,7 +14,7 @@ In order to use this workshop content, you will need to setup your hardware and 
 #### Option 2. Advantech AIR-200 withc VEGA-330
 [VEGA-330](https://www.advantech.com/products/3d060f1e-e73e-460d-b38c-c69f76312c91/vega-330/mod_120c6dca-5210-4d0d-b71f-8854a7faf1a1): miniPCIe Edge AI Module with two Intel® Movidius™ Myriad™ X VPUs onboard
 
-### 2. Operation System & Pre-Configuration
+### 2. OS & Pre-Configuration
 - Ubuntu 18.04 x86_64 or Windows 10 2019 LTSC 64 bit
 - [VEGA-320/330 Check](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/VEGA_Check.md)
 

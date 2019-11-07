@@ -12,7 +12,7 @@ VEGA-320
 
 VEGA-330
 
-![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_2.png)
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_4.png)
 
 ### Linux
 

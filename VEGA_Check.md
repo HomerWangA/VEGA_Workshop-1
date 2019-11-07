@@ -18,11 +18,11 @@ When you excute inference engine with VEGA, the USB device name will change to "
 
 VEGA-320: **m.2** Edge AI Module with **one** Intel® Movidius™ Myriad™ X VPU onboard
 
-![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_2.png)
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_3.png)
 
 VEGA-330: **miniPCIe** Edge AI Module with **two** Intel® Movidius™ Myriad™ X VPUs onboard
 
-![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_3.png)
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_2.png)
 
 ### Linux
 

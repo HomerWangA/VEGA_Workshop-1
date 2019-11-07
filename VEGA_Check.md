@@ -14,7 +14,7 @@ VEGA-330: **miniPCIe** Edge AI Module with **two** Intel® Movidius™ Myriad™
 
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_4.png)
 
-When you excute inference engine with VEGA, the USB device name will change to "VSC Loopback Device"
+**When you excute inference engine with VEGA, the USB device name will change to "VSC Loopback Device"**
 
 VEGA-320: **m.2** Edge AI Module with **one** Intel® Movidius™ Myriad™ X VPU onboard
 

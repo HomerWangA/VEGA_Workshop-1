@@ -22,7 +22,42 @@ In order to use this workshop content, you will need to setup your hardware and 
 - [Ubuntu 16.04/18.04 (x86_64)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/ubuntu.md)
 - [Windows 10 LTSC 2019 (64-bit)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/windows.md)
 
-### 4. Hands-on LABs (Ubuntu)
+### 4. LAB Setup
+
+## Lab setup
+Set the folder to execute labs in the workshop github.
+
+### Download workshop content and set directory path
+Step 1. Create the workshop directory
+
+	sudo mkdir -p /opt/advantech
+	
+Step 2. Change ownership of the workshop directory to the current user 
+
+> **Note:** *replace the usernames below with your user account name*
+		
+	sudo chown username.username -R /opt/advantech
+
+Step 3. Navigate to the new directory
+
+	cd /opt/advantech
+
+Step 4. Download and clone the workshop content to the current directory (/opt/intel/workshop/smart-video-workshop).
+
+	git clone https://github.com/ADVANTECH-EIoT/VEGA_Workshop.git
+	
+If you get a fatal message, "fatal: destination path 'smart-video-workshop' already exists and is not an empty directory.
+",
+
+	cd /opt/advantech/VEGA_Workshop/
+	git pull
+
+Step 5. Set short path for the workshop directory
+
+	export SV=/opt/advantech/VEGA_Workshop/
+
+
+### 5. Hands-on LABs (Ubuntu)
 
 **Model Downloader**
 

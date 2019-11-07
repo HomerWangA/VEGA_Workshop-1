@@ -26,4 +26,10 @@ VEGA-330: **miniPCIe** Edge AI Module with **two** Intel® Movidius™ Myriad™
 
 ### Linux
 
-Step 1. 
+Step 1. Use demsg command to chek the VEGA module detect or not.
+
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_6.png)
+
+Step 2. Use lsub command to chek the VEGA module detect or not.
+
+![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/status_7.png)

@@ -1,11 +1,14 @@
-## Classification with squeezenet1.1
+## Classification with squeezenet 1.1
 
-#### Model Downloader
+**Model Downloader**
+
+Intel provides a python code "downloader.py" to download some opensource models.
 
 ```
 cd /opt/intel/openvino/deployment_tools/tools/model_downloader
 sudo python3 downloader.py -h
 ```
+
 ```
 usage: downloader.py [-h] [-c CONFIG.YML] [--name PAT[,PAT...]]
                      [--list FILE.LST] [--all] [--print_all]
@@ -34,10 +37,25 @@ optional arguments:
 
 ```
 
+#### Download squeezenet 1.1 Model
+```
+cd /opt/intel/openvino/deployment_tools/tools/model_downloader
+sudo python3 downloader.py --name squeezenet1.1
+```
 
+#### Moder Optimizer
+```
 
-#### Moder Optimizer 
+```
 
 #### Inference Engine Sample Compile
 
-#### Result
+```
+
+```
+
+#### Excute the application
+
+```
+
+```

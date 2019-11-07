@@ -66,6 +66,19 @@ Step 5. Set short path for the workshop directory
 
 - [LAB 3: Interactive face detection](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hands_on/security_barrier_camera_demo/security_barrier_camera_demo.md)
 
+- [LAB 4: human_pose_estimation_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/human_pose_estimation_demo/human_pose_estimation_demo.md)
+
+- [LAB 5: text_detection_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/text_detection_demo/text_detection_demo.md)
+
+- [LAB 6: gaze_estimation_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/gaze_estimation_demo/gaze_estimation_demo.md)
+
+- [LAB 7: smart_classroom_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/smart_classroom_demo/smart_classroom_demo.md)
+
+- [LAB 8: multichannel_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/multichannel_demo/multichannel_demo.md)
+
+- [LAB 9: super_resolution_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/super_resolution_demo/super_resolution_demo.md)
+
+- [LAB 10: segmentation_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/segmentation_demo/segmentation_demo.md)
 
 <!--	
 * **Workshop Survey**

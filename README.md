@@ -16,11 +16,11 @@ In order to use this workshop content, you will need to setup your hardware and 
 
 ### 2. OS & Pre-Configuration
 - Ubuntu 18.04 x86_64 or Windows 10 2019 LTSC 64 bit
-- [VEGA-320/330 Check](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Pre_configure/VEGA_Check.md)
+- [VEGA-320/330 Check](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/pre_configure/VEGA_Check.md)
 
 ### 3. Intel OpenVINO Installation Steps
-- [Ubuntu 16.04/18.04 (x86_64)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Installation/ubuntu.md)
-- [Windows 10 LTSC 2019 (64-bit)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Installation/windows.md)
+- [Ubuntu 16.04/18.04 (x86_64)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/installation/ubuntu.md)
+- [Windows 10 LTSC 2019 (64-bit)](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/installation/windows.md)
 
 ### 4. LAB Setup
 
@@ -61,7 +61,7 @@ Step 5. Set short path for the workshop directory
 
 - [LAB 1: classification_sample_async](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/hands_on/classification_sample_async/classification_sample_async.md)
 
-- [LAB 2: security_barrier_camera_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hands_on/security_barrier_camera_demo/security_barrier_camera_demo.md)
+- [LAB 2: security_barrier_camera_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/hands_on/security_barrier_camera_demo/security_barrier_camera_demo.md)
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Security_Barrier_Camera_Demo.png)
 
 - [LAB 3: interactive_face_detection_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/tree/master/hands_on/interactive_face_detection_demo/interactive_face_detection_demo.md)

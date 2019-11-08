@@ -59,7 +59,7 @@ Step 5. Set short path for the workshop directory
 
 ### 5. Hands-on LABs (Ubuntu)
 
-- [LAB 1: classification_sample_async](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hands_on/classification_sample_async/classification_sample_async.md)
+- [LAB 1: classification_sample_async](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/hands_on/classification_sample_async/classification_sample_async.md)
 
 - [LAB 2: security_barrier_camera_demo](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/Hands_on/security_barrier_camera_demo/security_barrier_camera_demo.md)
 ![image](https://github.com/ADVANTECH-EIoT/VEGA_Workshop/blob/master/photos/Security_Barrier_Camera_Demo.png)

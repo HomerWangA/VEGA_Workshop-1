@@ -51,11 +51,13 @@ python3 mo_caffe.py --input_model /opt/intel/openvino/deployment_tools/tools/mod
 ```
 
 #### Step 3: Inference Engine Sample Compile
-
+Run demo scripts which will generate the folder $HOME/inference_engine_samples with the current Intel® Distribution of OpenVINO™ toolkit built.
 ```
-
+sudo chown -R username.username $HOME/inference_engine_samples_build
+cd $HOME/inference_engine_samples_build
+make
 ```
-
+After complier, all execute file will in the $HOME/inference_engine_samples_build/intel64
 #### Step 4: Excute the application
 
 ```
